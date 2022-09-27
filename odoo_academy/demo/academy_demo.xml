@@ -12,7 +12,7 @@
             Curso intermedio de contabilidad
             Aprender acerca de contabilidad de costos y precios y analisis de ganancias
             </field>
-            <field name="level">tntermadiate</field>
+            <field name="level">intermediate</field>
         </record>
         <record model="academy.course" id="website_500">
             <field name="name">Website 500</field>
