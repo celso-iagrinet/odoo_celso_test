@@ -5,14 +5,15 @@
     'summary': """ Academy app to manage Training """,
     
     'description': """
-    Academy Module to Manage Training:
-    - Courses
-    - Sessions
-    - Attendees
+        Academy Module to Manage Training:
+        - Courses
+        - Sessions
+        - Attendees
     """,
     'author': 'Celso',
     'website': 'https://www.odoo.com',
-    'licence': 'LGPL-3',
+    
+    'license': 'LGPL-3',
     
     'category': 'Training',
     'version': '0.1',
