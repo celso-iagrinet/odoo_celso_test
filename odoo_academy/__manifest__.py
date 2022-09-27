@@ -12,6 +12,7 @@
     """,
     'author': 'Celso',
     'website': 'https://www.odoo.com',
+    'licence': 'LGPL-3',
     
     'category': 'Training',
     'version': '0.1',
