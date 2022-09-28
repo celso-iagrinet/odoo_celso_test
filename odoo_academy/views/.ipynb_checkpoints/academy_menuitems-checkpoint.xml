@@ -4,7 +4,7 @@
         <record model="ir.actions.act_window" id="course_list_action">
             <field name="name">Courses</field>
             <field name="res_model">academy.course</field>
-            <field name="view_mode">tree,form</field>
+            <field name="view_mode">tree,form,pivot</field>
             <field name="help" type="html">
                 <p class="o_view_nocontent_smiling_face">
                     Create the first course
@@ -15,7 +15,7 @@
         <record model='ir.actions.act_window' id='session_list_action'>
             <field name="name">Session</field>
             <field name="res_model">academy.session</field>
-            <field name="view_mode">tree,form</field>
+            <field name="view_mode">tree,form,calendar</field>
             <field name="help" type="html">
                 <p class="o_view_nocontent_smiling_face">
                     Create the first session
@@ -27,9 +27,9 @@
                  id="menu_academy"
                  sequence="1" />
         <menuitem id="menu_academy_sub" name="Odoo Academy" parent="menu_academy" sequence="2"/>
-            <menuitem id="menu_academy_courses" name="Courses" parent="menu_academy_sub" sequence="3"
+            <menuitem id="menu_academy_courses" name="Cursos" parent="menu_academy_sub" sequence="3"
                       action="course_list_action" />
-        <menuitem id="menu_academy_sessions" name="Sessions" parent="menu_academy_sub" sequence="4"
+        <menuitem id="menu_academy_sessions" name="Sesiones" parent="menu_academy_sub" sequence="4"
                       action="session_list_action" />
     </data>
 </odoo>
